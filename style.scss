@@ -165,11 +165,13 @@ $colorBlow:#838383;
 }
 
 .container{
-        @include Size(386px,380px);
+    @include Size(386px,380px);
         
         &-card{
+            width: 1135px;
             display: flex;
             flex-wrap: wrap;
+           
             &-one{
                 @include SizeCard(350px,190px);
                 margin-top:105px

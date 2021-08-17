@@ -133,6 +133,7 @@ body {
   margin-right: 380px;
 }
 .container-card {
+  width: 1135px;
   display: flex;
   flex-wrap: wrap;
 }
